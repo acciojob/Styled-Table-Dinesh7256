@@ -1,1 +1,37 @@
 /* your code */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2874a6;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eaf2f8;
+}
+
+tbody tr:hover {
+    background-color: #d6eaf8;
+}
